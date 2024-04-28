@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewpoint" content="width=device-width,intial-scale=1.0">
-        <title>Lori Merriam |WDD 130</title>
+        <title>'Lori Merriam |WDD 130'</title>
     </head>
     <body>
         <header>
