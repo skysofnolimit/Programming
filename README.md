@@ -8,7 +8,7 @@
     <body>
         <header>
             <nav>
-                <a href="#"Home</a>
+                <a href="#">Home</a>
                 <a href="wwr/">Rafting Site</a>
                 <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
             </nav>
