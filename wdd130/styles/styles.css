@@ -1,22 +1,27 @@
-nav {
-  background-color:steelblue;
-  padding: 10px;
+main {
+  max-width: 840px;
 }
-nav a{
-  color: white;
-  display: block;
-  padding:20px;
+
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solidrgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
 }
-h1{
-  color: steelblue;
+aside img {
+  width:200px;
+  height: auto;
 }
-img {
+main img {
   width: 150px;
-  height: autp;
-  border 1 px solid steelblue;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
+  height: auto;
 }
-p {
-    padding:10px;
+p { padding: 0;}
+footer{
+  margin-top:15px;
+  border-top: 1px solid #000;
+  text-align: center;
 }
