@@ -1,7 +1,14 @@
 main {
   max-width: 840px;
 }
-
+nav a{
+  color:white;
+  padding:10px;
+  display:block;
+}
+h1 {
+  color:steelblue;
+}
 aside {
   width: 20rem;
   margin: 1rem;
