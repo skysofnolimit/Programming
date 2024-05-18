@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen One&family=Alegreya Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Alegreya Sans&);
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -12,7 +11,7 @@ body {
     --accent2-color: #157145;
 
     --heading-font: 'Poetsen One', serif;
-    --paragraph-font: 'Poetsen One', serif;
+    --paragraph-font: 'Alegreya', serif;
 
     --nav-background-color:var(--primary-color);
     --nav-link-color:var(--accent2-color);
