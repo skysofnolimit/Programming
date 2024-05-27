@@ -20,7 +20,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
 }
 header {
     padding: 20px;
@@ -49,12 +49,48 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+.hero {
+    margin: 10px auto;
+    position:relative;
+}
 .hero img {
     position:relative;
     display:block;
     width:100%;
     height:auto;
 }
-.hero {
-    position:relative;
+.title {
+    position: absolute;
+    width: 100%;
+    top: 25px;
+    font: centered;
+    padding: 1.65rem;
+    opacity: 0.65;
+}
+article {
+    position: absolute;
+}
+.hero article img {
+
+    float: right;
+    position: relative;
+    bottom: 140px;
+    width: 30%;
+    opacity: 1;
+
+}
+article p {
+    position: relative;
+    bottom: 140px;
+    background-color: #eee;
+    width: 65%;
+    opacity:.8;
+}
+
+h1 { 
+        position:absolute;
+        color:#000;
+        background-color: #eee; 
+        padding: 1%;
+        width: 88%; 
 }
