@@ -87,13 +87,6 @@ article {
 section {
     display: flex;
 }
-section img {
-    width: 20%
-}
-.container {
-display:grid;
-grid-template-columns: 1fr 1fr 1fr;
-}
 .hero article img {
 
     float: right;
