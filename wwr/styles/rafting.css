@@ -117,3 +117,7 @@ h2 {
     padding: 1%;
     width: 88%; 
 }
+.sociallinks{
+    align-items:flex-end;
+    justify-content: flex-end;
+}
