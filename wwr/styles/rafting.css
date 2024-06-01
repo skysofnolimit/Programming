@@ -36,6 +36,12 @@ header {
 	width: 64px;
 	height: auto;
 }
+figure img{
+    width: 100px;
+    padding: 5px; 
+    border: .2rem solid #ccc;
+   
+}
 p {
     padding: 25px;
 }
@@ -113,9 +119,8 @@ h1 {
         width: 88%; 
 }
 h2 { 
-    position:relative;
+    position:absolute;
     color:#157145;
-    background-color: #eee; 
     padding: 1%;
     width: 88%; 
 }
