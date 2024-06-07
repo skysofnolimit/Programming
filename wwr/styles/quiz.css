@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen One&family=Alegreya Sans&display=swap');
+form {
+    width: 650px;  
+    margin: 0 auto;
+    padding: 1rem;
+    border:1 px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+h1{
+    margin: 1rem;
+    font-size: 1.5em;
+    color:blueviolet;
+    text-align:center;
+}
+
+button{
+    margin: 1rem;
+    background-color:blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color:blue;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font: size 0.8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    font-size: 2rem;
+    display: grid;
+    align-items: center;
+    margin: 0.5rem 0;
+    grid-template-columns: 1fr;
+}
