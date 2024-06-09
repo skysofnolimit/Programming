@@ -124,3 +124,56 @@ h2 {
 .sociallinks img{
     width:50px
 }
+
+h2 {
+    padding: 0rem;
+    color:#157145;
+    font-size: 1em;
+    position: absolute;
+    width: 25%;
+  
+    font: centered;
+    padding: .25rem;
+    opacity: 0.85;
+    background-color: #eee;
+}
+button{
+    margin: 1rem;
+    background-color:blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2 rem;
+}
+
+button:hover {
+    background-color:blue;
+}
+.form-item {
+    display: grid;
+    align-items: canter;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+label, input, button, select, textarea {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label {
+    text-align:right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
