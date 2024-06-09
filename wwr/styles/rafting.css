@@ -108,7 +108,7 @@ article p {
 
 h1 { 
         position:absolute;
-        color:#000;
+        color:#157145;
         background-color: #eee; 
         padding: 1%;
         width: 88%; 
@@ -116,7 +116,7 @@ h1 {
 h2 { 
     position:absolute;
     font-family: var(--heading-font);
-    color:#000;
+    color:#157145;
     padding: 1%;
     width: 88%; 
 }
