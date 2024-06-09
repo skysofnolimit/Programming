@@ -41,9 +41,7 @@ figure img{
     padding: 5px; 
     border: .2rem solid #ccc;  
 }
-p {
-    padding: 5px;
-}
+
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
