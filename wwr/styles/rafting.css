@@ -117,7 +117,7 @@ h2 {
     position:absolute;
     font-family: var(--heading-font);
     color:#157145;
-    padding: 1%;
+   
     width: 88%; 
 }
 .sociallinks{
@@ -129,7 +129,7 @@ h2 {
 }
 
 h2 {
-    padding: 0rem;
+   
     color:#157145;
     font-size: 1em;
     position: absolute;
