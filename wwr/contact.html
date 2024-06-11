@@ -103,12 +103,15 @@
                 <fieldset>
                     <legend>Questions</legend>
                     <div class="form-item column1">
-                    <label for="browser"> What is the prupose of your message?</label>
-                    <select id="browser" name="browser">
-                        <option value="general inquiry">General Inquiry</option>
-                        <option value="reservation question">Reservation Question</option>
-                        <option value="website suggestion">Website Suggestion</option>
-                                        
+                  
+                        <form action="/action_page.php">
+  <p>Please select the purpose of your message:</p>
+  <input type="radio" id="general inquiry" name="fav_language" value="General Inquiry">
+  <label for="general inquiry">General Inquir</label><br>
+  <input type="radio" id="reservation question" name="fav_language" value="Reservation Question">
+  <label for="reservation question">Reservation Question</label><br>
+  <input type="radio" id="website suggestion" name="fav_language" value="Website Suggestion">
+  <label for="website suggestion">Website Suggestion</label>                
                     </select>
                     <label for="Information">Would you like more information?</label>
                     <input type="checkbox" id="pet" name="pet">
