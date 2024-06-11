@@ -62,9 +62,9 @@ nav a {
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
-nav a: hover {
+nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(#9BD1E5);
+    background-color: var(--nav-hover-background-color);
 }
 .hero {
     margin: 10px auto;
@@ -148,7 +148,7 @@ button{
     font-size: 1.2rem;
 }
 
-button: hover {
+button:hover {
     background-color: blue;
 }
 .form-item {
