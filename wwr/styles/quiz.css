@@ -40,9 +40,16 @@ footer {
 }
 
 .form-item {
-    font-size: 2rem;
+    font-size: 1rem;
     display: grid;
     align-items: center;
     margin: 0.5rem 0;
     grid-template-columns: 1fr;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
 }
